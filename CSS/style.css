@@ -3,3 +3,15 @@ body, img, p, fieldset, legend, label, input, select, textarea, button{
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --background-primary-color: #ffffff;
+    --background-secondary-color: #F5F5F5;
+    --ackground-tertiary-color: #000000;
+    
+    --button-primary-color: #8F0101;
+    --button-secondary-color: #B81515;
+
+    --text-primary-color: #222222;
+    --text-secondary-color: #FFFFFF;
+}
