@@ -4,14 +4,25 @@ body, img, p, fieldset, legend, label, input, select, textarea, button{
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap;
+}
+
 :root{
     --background-primary-color: #ffffff;
     --background-secondary-color: #F5F5F5;
-    --ackground-tertiary-color: #000000;
+    --background-tertiary-color: #000000;
     
     --button-primary-color: #8F0101;
     --button-secondary-color: #B81515;
 
     --text-primary-color: #222222;
     --text-secondary-color: #FFFFFF;
+
+    --title-wieight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
 }
