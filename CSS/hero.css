@@ -23,7 +23,7 @@
 
     .hero h2{
     padding: 88px 60px;
-}
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -35,5 +35,5 @@
     .hero h2{
     padding: 120px 104px;
     font-size: 32px;
-}
+    }
 }
