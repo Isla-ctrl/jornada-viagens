@@ -33,3 +33,18 @@
     margin-top: 24px;
     display: inline-block;
 }
+
+@media screen and (min-width: 1024px){
+    .cards{
+        width: 588px;
+        height: 308px;
+    }
+
+    .cards header h3{
+    font-size: 48px;
+    }
+
+    .cards header span{
+    font-size: 40px;
+    }
+}
