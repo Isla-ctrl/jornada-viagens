@@ -71,22 +71,22 @@
 }
 
 @media screen and (min-width: 1024px){
-    .card{
+    .offers-cards .card{
         width: 420px;
         height: 308px;
     }
 
-    .card header h3{
+    .offers-cards .card header h3{
     font-size: 48px;
     }
 
-    .card header span{
+    .offers-cards .card header span{
     font-size: 40px;
     }
 }
 
 @media screen and (min-width: 1440px){
-    .card{
+    .offers-cards .card{
         width: 588px;
     }
 }
