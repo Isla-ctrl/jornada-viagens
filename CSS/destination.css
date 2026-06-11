@@ -1,3 +1,11 @@
 .destination .section-title{
     margin: 88px auto 32px;
 }
+
+.destination .items header{
+    display: block;
+    background-color: transparent;
+    position: static;
+    padding: 0;
+    margin-bottom: 24px;
+}
