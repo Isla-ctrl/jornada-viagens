@@ -2,6 +2,19 @@
     margin: 88px auto 32px;
 }
 
+.destination-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.destination-items .items{
+    width: 312px;
+    height: 754px;
+    
+}
+
 .destination .items header{
     display: block;
     background-color: transparent;
