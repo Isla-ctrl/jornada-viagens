@@ -1,6 +1,6 @@
 .categories .section-title{
     width: 312px;
-    margin: 0 auto;
+    margin: 88px auto 0;
 }
 
 .categories-cards{
@@ -34,4 +34,28 @@
 
 .categories-cards .card.single-line.transfer img{
     margin: 5px 0 15px;
+}
+
+@media screen and (min-width: 768px){
+    .categories .section-title{
+    width: 100%;
+    }
+
+    .categories-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .categories-cards .card{
+        width: 438px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .categories-cards .card{
+        width: 288px;
+    }
 }
