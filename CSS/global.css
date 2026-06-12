@@ -58,15 +58,23 @@ body{
 
 .button{
     display: inline-block;
-    width: 280px;
     height: 64px;
     color: var(--text-secondary-color);
     font-weight: var(--title-weight);
     font-size: 20px;
     background-color: var(--button-secondary-color);
-    border-radius: 16px;
+    border-radius: 8px;
     text-decoration: none;
     line-height: 64px;
+    text-align: center;
+
+    .mini{
+        width: 280px;
+    }
+
+    .large{
+        width: 312px;
+    }
 }
 
 @media screen and (min-width: 768px) {
