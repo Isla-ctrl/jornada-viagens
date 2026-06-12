@@ -41,12 +41,12 @@
 @media screen and (min-width: 768px){
     .destination-items .items{
         width: 648px;
-        height: 750px;
+        height: 718px;
     }
 
     .img-destination{
         width: 648px;
-        height: 452px;
+        height: 440px;
     }
 
     .img-destination.tokyo{
