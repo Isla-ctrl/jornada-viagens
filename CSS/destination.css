@@ -1,7 +1,3 @@
-.destination .section-title{
-    margin: 88px auto 32px;
-}
-
 .destination-items{
     display: flex;
     flex-direction: column;
@@ -50,10 +46,6 @@
 }
 
 @media screen and (min-width: 768px){
-    .destination-items{
-        gap: 40px;
-    }
-
     .destination-items .items{
         width: 648px;
         height: 750px;

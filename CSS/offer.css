@@ -1,3 +1,7 @@
+.offers h2{
+    margin: 0 auto;
+}
+
 .offers-cards{
     display: flex;
     flex-direction: column;
@@ -91,8 +95,7 @@
 }
 
 @media screen and (min-width: 1920px){
-    .offers-cards{
-        width: 1250px;
-        margin: 0 auto;
+    .offers-cards .card{
+        width: 625px;
     }
 }
