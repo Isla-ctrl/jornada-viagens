@@ -41,10 +41,24 @@ body{
     color: var(--text-primary-color);
 }
 
+section{
+    width: 312px;
+    margin: 0 auto;
+}
+
+section.hero{
+    width: 100%;
+}
+
+.section-title{
+    width: 280px;
+    margin: 0 auto;
+}
+
 .section-title h2{
     font-size: 28px;
     font-weight: var(--title-weight);
-    margin: 0;
+    margin: 88px auto 0;
     text-align: center;
 }
 
@@ -58,29 +72,61 @@ body{
 
 .button{
     display: inline-block;
-    width: 280px;
     height: 64px;
     color: var(--text-secondary-color);
     font-weight: var(--title-weight);
     font-size: 20px;
     background-color: var(--button-secondary-color);
-    border-radius: 16px;
+    border-radius: 8px;
     text-decoration: none;
     line-height: 64px;
+    text-align: center;
 }
 
+.button--mini{
+        width: 280px;
+    }
+
+.button--large{
+        width: 312px;
+    }
+
 @media screen and (min-width: 768px) {
+    section{
+    width: 648px;
+    }
+    
+    .section-title{
+        width: 100%;
+    }
+    
     .section-title h2{
         font-size: 32px;
     }
 }
 
 @media screen and (min-width: 1024px){
+    section{
+    width: 900px;
+    }
+    
     .section-title hr{
         margin: 16px auto 64px;
     }
 
     .button:hover{
         background-color: var(--button-primary-color);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    section{
+    width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    section{
+    width: 1400px;
     }
 }
