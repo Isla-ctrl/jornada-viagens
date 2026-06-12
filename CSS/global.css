@@ -76,15 +76,15 @@ section.hero{
     text-decoration: none;
     line-height: 64px;
     text-align: center;
+}
 
-    .mini{
+.button--mini{
         width: 280px;
     }
 
-    .large{
+.button--large{
         width: 312px;
     }
-}
 
 @media screen and (min-width: 768px) {
     section{
