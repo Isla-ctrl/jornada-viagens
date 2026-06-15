@@ -26,15 +26,10 @@
 }
 
 .destination-items .items header h4{
-    font-size: 28px;
-    font-weight: var(--title-weight);
     margin: 24px 0;
 }
 
 .destination-items .items header p{
-    font-size: 20px;
-    font-weight: var(--text-weight);
-    line-height: 32px;
     margin-bottom: 24px;
 }
 
