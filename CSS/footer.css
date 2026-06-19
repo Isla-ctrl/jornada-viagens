@@ -15,13 +15,10 @@
 .main-footer .informations{
     display: flex;
     flex-direction: column;
+    width: 100%;
     margin: 16px 0 32px;
     text-align: center;
     gap: 8px;
-}
-
-.main-footer .social-medias p{
-    text-align: center;
 }
 
 .main-footer .social-medias ul{
