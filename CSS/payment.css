@@ -52,10 +52,16 @@
 
     .payment .content-container .text-content{
         width: 360px;
+        margin-top: 0;
+    }
+
+    .payment .content-container .text-content .content-title{
+        margin-top: 0;
     }
     
     .payment .content-container .image-gallery{
         width: 790px;
+        margin-top: 0;
     }    
 }
 
