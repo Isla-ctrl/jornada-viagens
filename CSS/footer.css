@@ -1,3 +1,40 @@
 .main-footer{
     background-color: var(--background-tertiary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat";
+    padding: 32px 24px;
+}
+
+.main-footer .logo-footer img{
+    width: 162px;
+    height: 40px;
+}
+
+.main-footer .informations{
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0 32px;
+    text-align: center;
+    gap: 8px;
+}
+
+.main-footer .social-medias p{
+    text-align: center;
+}
+
+.main-footer .social-medias ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 16px 0 0;
+    gap: 8px;
+    list-style: none
+}
+
+.main-footer .social-medias ul li a img{
+    width: 32px;
+    height: 32px;
 }
