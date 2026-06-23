@@ -1,7 +1,15 @@
-.hero-img{
+.hero .hero-img, .hero.bottom-hero .hero-img{
     height: 400px;
     width: 100%;
+}
+
+.hero .hero-img{
     background: url(../img/hero-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hero.bottom-hero .hero-img{
+    background: url(../img/bottom-hero-mobile.png) no-repeat;
     background-size: cover;
 }
 
@@ -15,25 +23,37 @@
 }
 
 @media screen and (min-width: 768px){
-    .hero-img{
+    .hero .hero-img{
         height: 620px;
         background: url(../img/hero-tablet.jpg) no-repeat;
         background-size: cover;
     }
 
-    .hero h2{
-    padding: 88px 60px;
-    }
-}
-
-@media screen and (min-width: 1024px){
-    .hero-img{
-        background: url(../img/hero-desktop.jpg) no-repeat;
+    .hero.bottom-hero .hero-img{
+        height: 400px;
+        background: url(../img/bottom-hero-tablet.png) no-repeat;
         background-size: cover;
     }
 
     .hero h2{
-    padding: 120px 104px;
-    font-size: 32px;
+        padding: 88px 60px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .hero .hero-img{
+        background: url(../img/hero-desktop.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .hero.bottom-hero .hero-img{
+        height: 620px;
+        background: url(../img/bottom-hero-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .hero h2{
+        padding: 120px 104px;
+        font-size: 32px;
     }
 }
