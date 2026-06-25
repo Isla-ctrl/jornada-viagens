@@ -17,8 +17,9 @@
   <a href="https://isla-ctrl.github.io/jornada-viagens/">🔗 Ver página publicada</a>
 </p>
 
-![Gif mostrando o site Jornada viagens, do cabeçalho até o rodapé](./img/jornada-viagens.gif)
-
+<p align="center">
+  <img src="./img/jornada-viagens.gif" alt="Demonstração do projeto">
+</p>
 ---
 
 ## 🧩 Sumário
