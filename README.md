@@ -2,7 +2,7 @@
 
 <p align="center">
   Landing page responsiva de uma agência de viagens fictícia, desenvolvida durante o módulo
-  <strong>"HTML e CSS: responsividade em layouts"</strong> da formação Front-end da Alura.
+  <strong>"HTML e CSS: responsividade em layouts"</strong> da formação Front-end React da Alura.
 </p>
 
 <p align="center">
@@ -20,6 +20,7 @@
 <p align="center">
   <img src="./img/jornada-viagens.gif" alt="Demonstração do projeto">
 </p>
+
 ---
 
 ## 🧩 Sumário
@@ -127,7 +128,7 @@ jornada-viagens/
 ├── fonts/
 ├── img/
 ├── js/
-│   └── index.js        # lógica do menu hambúrguer
+│   └── index.js 
 ├── favico.png
 └── index.html
 ```
@@ -170,20 +171,18 @@ cd jornada-viagens
 
 ## 🧠 O que eu aprendi
 
-Este projeto foi minha primeira experiência aplicando responsividade "de verdade" — pensando em como cada seção se comporta em diferentes tamanhos de tela, e não só replicando um design fixo. Também foi a primeira vez que usei Git e GitHub de forma disciplinada, com branches e pull requests, em vez de apenas subir o código direto na `main`.
+Este projeto foi minha primeira experiência aplicando responsividade com muito mais responsabilidade e entrega, pensando em como cada seção se comporta em diferentes tamanhos de tela, e não só replicando um design fixo. Também foi a primeira vez que usei Git e GitHub de forma disciplinada, com branches e pull requests, em vez de apenas subir o código direto na `main`.
 
-Implementar o menu hambúrguer com JavaScript próprio, sem isso ter sido pedido no curso, me mostrou que consigo conectar conhecimentos de trilhas diferentes (JS + HTML/CSS) para resolver um problema com mais autonomia — algo que quero continuar praticando enquanto avanço para React.
+Implementar o menu hambúrguer com JavaScript próprio, sem isso ter sido pedido no curso, me mostrou que consigo conectar conhecimentos de trilhas diferentes (JS + HTML/CSS) para resolver um problema com mais autonomia, algo que quero continuar praticando enquanto avanço para React.
 
 ---
 
 ## 👩‍💻 Autora
 
-**Isla**
+**Beatriz Souza**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Isla-ctrl)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/beatriz-souza-6a942b333/)
-
->
 
 ---
 
