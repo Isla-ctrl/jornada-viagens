@@ -13,6 +13,13 @@
     background-size: cover;
 }
 
+.hero.blog .hero-img{
+    height: 460px;
+    background: url(../img/hero-blog-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .hero h2{
     padding: 88px 24px;
     margin: 0px;
@@ -20,6 +27,31 @@
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
+}
+
+.hero.blog .hero-img .content-blog{
+    padding: 81px 24px
+}
+
+.hero.blog h2{
+    font-size: 48px;
+    text-align: left;
+    font-weight: var(--title-weight);
+    color: var(--background-primary-color);
+    line-height: normal;
+    padding: 0;
+}
+
+.hero.blog hr{
+    width: 180px;
+    height: 4px;
+    background-color: var(--button-secondary-color);
+    border: none;
+    margin: 16px 0 32px;
+}
+
+.hero.blog h3{
+    margin: 0;
 }
 
 @media screen and (min-width: 768px){
