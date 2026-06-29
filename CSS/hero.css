@@ -67,8 +67,23 @@
         background-size: cover;
     }
 
+    .hero.blog .hero-img{
+        height: 620px;
+        background: url(../img/hero-blog-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
     .hero h2{
         padding: 88px 60px;
+    }
+
+    .hero.blog .hero-img .content-blog{
+    padding: 159px 95px
+    }
+
+    .hero.blog h3{
+        font-size: 32px;
+        line-height: 150%;
     }
 }
 
@@ -88,4 +103,19 @@
         padding: 120px 104px;
         font-size: 32px;
     }
+
+    .hero.blog .hero-img .content-blog{
+        padding: 159px 150px;
+    }
+
+    .hero.blog .hero-img{
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .hero.blog .hero-img .content-blog{
+        padding: 159px 741px 159px 120px;
+    }
+    
 }
